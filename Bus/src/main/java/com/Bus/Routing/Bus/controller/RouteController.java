@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
 public class RouteController {
 
     private final RouteService routeService;
